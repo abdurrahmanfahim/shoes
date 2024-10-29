@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: 0;
+    background: transparent;
+}
+
+.container {
+    position: relative;
+    padding: 50px;
+    margin: 0 auto;
+    /* z-index: -1; */
+}
+
+.bg {
+    height: 87vh;
+    background: url("../images/bg.jpeg");
+    background-position: center center;
+    background-size: 10%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.bg .input {
+    position: absolute;
+    right: 0;
+    bottom: 45%;
+    z-index: 9999;
+}
+
+.bg .skin {
+    position: absolute;
+    left: 5%;
+    bottom: 50%;
+    z-index: 9999;
+    background-color: coral;
+    border-radius: 15px;
+}
+
+.bg .skin .btn {
+    padding: 15px 20px;
+}
+
+.bg .skin .btn:hover {
+    color: #fff;
+}
+
+.arrow {
+    rotate: 0deg;
+    position: relative;
+}
+
+.arrow img {
+    rotate: 0deg;
+    width: 45px;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease;
+}
+
+.arrow i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    rotate: 0deg;
+    opacity: 10%;
+    z-index: 1;
+}
+
+.img-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 100px;
+    z-index: -1;
+}
+
+.img-holder {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.img-holder.img-1 {
+    background: url("../images-of-jutakhors/hasu.png");
+    background-size: 100%;
+    align-self: end;
+    justify-self: end;
+}
+
+.img-holder.img-2 {
+    background: url("../images-of-jutakhors/an.png");
+    background-size: 100%;
+    justify-self: end;
+    align-self: end;
+
+}
+
+.img-holder.img-3 {
+    background: url("../images-of-jutakhors/br.png");
+    background-size: 100%;
+    justify-self: start;
+    align-self: end;
+
+}
+
+.img-holder.img-4 {
+    background: url("../images-of-jutakhors/ah.png");
+    background-size: 100%;
+}
+
+.img-holder.img-5 {
+    background: url("../images-of-jutakhors/km.png");
+    background-size: 100%;
+    opacity: 0%;
+}
+
+.img-holder.img-6 {
+    background: url("../images-of-jutakhors/mnn.png");
+    background-size: 100%;
+    align-self: end;
+    justify-self: end;
+}
+
+.img-holder.img-7 {
+    background: url("../images-of-jutakhors/sa.png");
+    background-size: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.img-holder.img-8 {
+    background: url("../images-of-jutakhors/sfr.png");
+    background-size: 100%;
+    /* justify-self: end; */
+    align-self: end;
+
+}
+
+.img-holder.img-9 {
+    background: url("../images-of-jutakhors/tm.png");
+    background-size: 100%;
+    justify-self: end;
+    align-self: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
