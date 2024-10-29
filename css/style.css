@@ -46,6 +46,7 @@ button {
 
 .bg .skin .btn {
     padding: 15px 20px;
+    transition: transform 0.5s ease;
 }
 
 .bg .skin .btn:hover {
